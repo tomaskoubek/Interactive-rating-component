@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: #121417;
+}
+
+.container {
+  border: 1px solid yellow;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  background-color: #252d37;
+  width: 95%;
+  height: 400px;
+  border-radius: 1.2rem;
+  padding: 2.5rem;
+}
+
+.container .card .hide {
+  display: none;
+}
+
+.container .card .star {
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card .star img {
+  width: 1.2rem;
+}
+
+.container .card .title {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+
+.container .card .text {
+  color: #959eac;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: 1rem;
+}
+
+.container .card .rating-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.container .card .rating-container .rating-btn {
+  color: #959eac;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card .rating-container .rating-btn div {
+  text-decoration: none;
+  color: #959eac;
+}
+
+.container .card .rating-container .rating-btn:hover {
+  background-color: #fb7413;
+  cursor: pointer;
+}
+
+.container .card .rating-container .rating-btn:hover div {
+  color: white;
+}
+
+.container .card .rating-container .active {
+  background-color: #959eac;
+}
+
+.container .card .rating-container .active div {
+  color: white;
+}
+
+.container .card .submit-btn {
+  background-color: #fb7413;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+.container .card .submit-btn div {
+  color: white;
+  padding: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.container .card .submit-btn:hover {
+  background-color: white;
+}
+
+.container .card .submit-btn:hover div {
+  color: #fb7413;
+  font-weight: 700;
+}
+
+.container .second-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .second-content .result {
+  margin-top: 2rem;
+  color: #fb7413;
+}
+
+.container .second-content .result div {
+  padding: 0.5rem 1rem;
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 15.5rem;
+  height: 2rem;
+  border-radius: 50px;
+}
+
+.container .second-content .text {
+  line-height: 1.5rem;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
